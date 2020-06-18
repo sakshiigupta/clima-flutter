@@ -12,8 +12,8 @@ class NetworkHelper{
     if(resp.statusCode==200)
     {
       String data = resp.body;
-      var temp = jsonDecode(data)['name']; //name
-      print(temp);
+//      var temp = jsonDecode(data)['name']; //name
+//      print(temp);
       return data;
 
       //main.temp_min
